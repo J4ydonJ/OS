@@ -69,7 +69,7 @@ Access the windows control panel. Inside the windows control panel, select progr
 
 </p>
 <p>
-Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished.
+Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished. After installing these two, unzip the "php-7.3.8-nts-Win32-VC15-x86". Once this is done you must install the "VC_redist.x86" file followed by the "mysql-5.5.62-win32" file. More information about the mysql file will be in the following picture. 
   
 </p>
 <br />
