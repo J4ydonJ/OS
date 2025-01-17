@@ -77,6 +77,7 @@ Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. N
 
 
 
+![image](https://github.com/user-attachments/assets/856ddfc0-25ef-4a69-9b86-d9df94f85a3b)
 
 
 
