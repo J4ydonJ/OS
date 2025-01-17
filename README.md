@@ -45,19 +45,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+
+
+![image](https://github.com/user-attachments/assets/1b8d0916-f448-4a6f-a355-9f1846b074cb)
+
+
+
+
 <p>
-![image](https://github.com/user-attachments/assets/2a304df9-82a1-4fe2-b200-13ef439f6451)
+Access the windows control panel. Inside the windows control panel, select programs and turn windows features on or off. You should see similar to the picture above. Under World Wide Web find Application Development Features, then under Application Development Features there will be CGI. Select CGI and continue with ok.
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+![image](https://github.com/user-attachments/assets/d24d5d7d-8877-45d7-9c17-85e16618f13e)
+
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished.
+  
 </p>
 <br />
