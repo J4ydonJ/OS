@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -83,8 +78,23 @@ Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. N
 
 </p>
 <p>
-hhhhhhhhhhhhhhhhhhh
-  
+
+Open the mysql file after being installed and continue with the standard configuration. Next you will be shown the picture above. You must create a password and make sure they match each other. This passowrd is important and should not be messed up. Once everything is setup, run IIS as an administrator and select PHP Manager.
+
+
+
+  ![image](https://github.com/user-attachments/assets/920fb724-d31d-4594-b129-a78fb2f97491)
+
+</p>
+<p>
+ Register the new PHP version as the PHP CGI. After registering, reload IIS and make sure the process was completed correctly. If the proccess was done correctly, unzip the osTicket files within the osTicket installation files. Once the files are extracted you will see an upload file and a script file. Move the upload file into wwwroot. (The next picture will show the pathway to the www.root.) 
+
+  ![image](https://github.com/user-attachments/assets/a50a2833-ca07-4677-b777-ce12685cf96b)
+
+</p>
+<br />
+
+
   
 </p>
 <br />
