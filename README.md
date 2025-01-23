@@ -64,7 +64,7 @@ Access the windows control panel. Inside the windows control panel, select progr
 
 </p>
 <p>
-Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished. After installing these two, unzip the "php-7.3.8-nts-Win32-VC15-x86". Once this is done you must install the "VC_redist.x86" file followed by the "mysql-5.5.62-win32" file. (More information about the mysql file will be in the following picture.) When installing the mysql file, continue withe the typical install option. 
+Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished. After installing these two, unzip the "php-7.3.8-nts-Win32-VC15-x86". Once this is done you must install the "VC_redist.x86" file followed by the "mysql-5.5.62-win32" file. When installing the mysql file, continue withe the typical install option. Open the mysql file after being installed and continue with the standard configuration. Next you will be shown the picture 1. You must create a password and make sure they match each other. This passowrd is important and should not be messed up.  Once everything is setup, run IIS as an administrator and select PHP Manager. Register the new PHP version as the PHP CGI (picture 2). After registering, reload IIS and make sure the process was completed correctly.
   
 </p>
 <br />
@@ -74,26 +74,32 @@ Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. N
 
 ![image](https://github.com/user-attachments/assets/856ddfc0-25ef-4a69-9b86-d9df94f85a3b)
 
+ ![image](https://github.com/user-attachments/assets/920fb724-d31d-4594-b129-a78fb2f97491)
+
+</p>
+<p>
+
+
 
 
 </p>
 <p>
-
-Open the mysql file after being installed and continue with the standard configuration. Next you will be shown the picture above. You must create a password and make sure they match each other. This passowrd is important and should not be messed up. Once everything is setup, run IIS as an administrator and select PHP Manager.
-
-
-
-  ![image](https://github.com/user-attachments/assets/920fb724-d31d-4594-b129-a78fb2f97491)
-
-</p>
-<p>
- Register the new PHP version as the PHP CGI. After registering, reload IIS and make sure the process was completed correctly. If the proccess was done correctly, unzip the osTicket files within the osTicket installation files. Once the files are extracted you will see an upload file and a script file. Move the upload file into wwwroot. (The next picture will show the pathway to the www.root.) 
+If the proccess was done correctly, unzip the osTicket files within the osTicket installation files. Once the files are extracted you will see an upload file and a script file. Move the upload file into wwwroot. (The next picture will show the pathway to the www.root.) Once the file is transfered to the wwwroot folder rename "upload" to "osTicket". This must be done exactly as osTicket for the application to be setup.
 
   ![image](https://github.com/user-attachments/assets/a50a2833-ca07-4677-b777-ce12685cf96b)
 
 </p>
 <br />
+Open IIS as an admin and check under connections on the left side of the window. Checking under sites you should see Default Web Site. This is where you should find the file we named "osTicket". Clicking on the folder should show all the files within the osTicket. 
 
+
+
+
+![image](https://github.com/user-attachments/assets/8f87c095-476d-42f9-b4c0-cba1ac8d9fda)
+
+
+</p>
+<p>
 
   
 </p>
