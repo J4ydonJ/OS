@@ -98,9 +98,24 @@ Open IIS as an admin and check under connections on the left side of the window.
 ![image](https://github.com/user-attachments/assets/8f87c095-476d-42f9-b4c0-cba1ac8d9fda)
 
 
+
+
+![image](https://github.com/user-attachments/assets/e45da09b-e3b4-4946-a285-323639ca286e)
+
 </p>
 <p>
-
-  
+Going back to IIS, under osTicket, use the PHP Manager to enable the missing extensions for osTicket. The extensions that need to be added are: php_imap.dll, php_intl.dll, and php_opache.dll. After these permisssions are set, check to see if they have all been added to the osTicket browser. After this is complete, go back into the wwwroot folder and find the osTicket folder. Inside this folder therer should be another folder labeled "include" , open the folder and find a document labeled as, "ost-sampleconfig.php". Rename this file "ost-config.php". Next change the properties of the document and the  permissions to whoever the osTicket is being installed for, or whoever need authorized access to the application. 		
 </p>
 <br />
+Go back to the osTicket installation files and install the HeidiSQL file. This is going to create a database for our OSTicket. Open HeidiSQL and select new. Now use the passowrd you created within the mySQL setup. After this is done create a new database named "osTicket" exactly.  Open IIS as admin and run the osTicket browser. After continuing from the first page you should see a page labeled as OSTicket Installer. Fill out the page and continue with install.  
+
+
+![image](https://github.com/user-attachments/assets/7c8a0c31-f781-43c3-b200-e9e2d952eeb3)
+
+
+</p>
+<p>
+		
+</p>
+<br />
+
