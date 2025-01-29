@@ -58,7 +58,7 @@ Access the windows control panel. Inside the windows control panel, select progr
 
 </p>
 <p>
-Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished. After installing these two, unzip the "php-7.3.8-nts-Win32-VC15-x86". Once this is done you must install the "VC_redist.x86" file followed by the "mysql-5.5.62-win32" file. When installing the mysql file, continue withe the typical install option. Open the mysql file after being installed and continue with the standard configuration. Next you will be shown the picture 1. You must create a password and make sure they match each other. This passowrd is important and should not be messed up.  Once everything is setup, run IIS as an administrator and select PHP Manager. Register the new PHP version as the PHP CGI (picture 2). After registering, reload IIS and make sure the process was completed correctly.
+Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. Next install the "rewrite_amd64_en-US". Both of these files must be installed to properly run the OS-Ticket application when we are finished. After installing these two, unzip the "php-7.3.8-nts-Win32-VC15-x86". Once this is done you must install the "VC_redist.x86" file followed by the "mysql-5.5.62-win32" file. When installing the mysql file, continue withe the typical install option. Open the mysql file after being installed and continue with the standard configuration. Next you will be shown picture 1. You must create a password and make sure they match each other. This passowrd is important and should not be messed up.  Once everything is setup, run IIS as an administrator and select PHP Manager. Register the new PHP version as the PHP CGI (picture 2). After registering, reload IIS and make sure the process was completed correctly.
   
 </p>
 <br />
@@ -78,7 +78,7 @@ Going back to the unzipped OS-Ticket files, install the PHPManagerForIIS file. N
 
 </p>
 <p>
-If the proccess was done correctly, unzip the osTicket files within the osTicket installation files. Once the files are extracted you will see an upload file and a script file. Move the upload file into wwwroot. (The next picture will show the pathway to the www.root.) Once the file is transfered to the wwwroot folder rename "upload" to "osTicket". This must be done exactly as osTicket for the application to be setup.
+If the proccess was done correctly, unzip the osTicket files within the osTicket installation files. Once the files are extracted you will see an upload file and a script file. Move the upload file into wwwroot. (The next picture will show the pathway to the wwwroot.) Once the file is transfered to the wwwroot folder rename "upload" to "osTicket". This must be done exactly as osTicket for the application to be setup.
 
   ![image](https://github.com/user-attachments/assets/a50a2833-ca07-4677-b777-ce12685cf96b)
 
@@ -98,7 +98,7 @@ Open IIS as an admin and check under connections on the left side of the window.
 
 </p>
 <p>
-Going back to IIS, under osTicket, use the PHP Manager to enable the missing extensions for osTicket. The extensions that need to be added are: php_imap.dll, php_intl.dll, and php_opache.dll. After these permisssions are set, check to see if they have all been added to the osTicket browser. After this is complete, go back into the wwwroot folder and find the osTicket folder. Inside this folder therer should be another folder labeled "include" , open the folder and find a document labeled as, "ost-sampleconfig.php". Rename this file "ost-config.php". Next change the properties of the document and the  permissions to whoever the osTicket is being installed for, or whoever need authorized access to the application. 		
+Going back to IIS, under osTicket, use the PHP Manager to enable the missing extensions for osTicket. The extensions that need to be added are: php_imap.dll, php_intl.dll, and php_opache.dll. After these permisssions are set, check to see if they have all been added to the osTicket browser. After this is complete, go back into the wwwroot folder and find the osTicket folder. Inside this folder there should be another folder labeled "include" , open the folder and find a document labeled as, "ost-sampleconfig.php". Rename this file "ost-config.php". Next change the properties of the document and the  permissions to whoever the osTicket is being installed for, or whoever need authorized access to the application. 		
 </p>
 <br />
 Go back to the osTicket installation files and install the HeidiSQL file. This is going to create a database for our OSTicket. Open HeidiSQL and select new. Now use the passowrd you created within the mySQL setup. After this is done create a new database named "osTicket" exactly.  Open IIS as admin and run the osTicket browser. After continuing from the first page you should see a page labeled as OSTicket Installer. Fill out the page and continue with install.  
